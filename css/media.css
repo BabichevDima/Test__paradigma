@@ -1,0 +1,139 @@
+@media (max-width: 1425px) {
+  .man {
+    height: 650px;
+    width: 500px;
+  }
+  .header__description {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1240px) {
+  .man {
+    height: 500px;
+    width: 350px;
+  }
+  .header__top_button {
+    margin: 0px 10px;
+    padding: 30px 10px;
+  }
+  .header__item {
+    font-size: 12px;
+  }
+  .header__description {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1130px) {
+  .header__menu {
+    flex-direction: column;
+  }
+  .header__description {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .man {
+    margin: auto;
+  }
+
+  .header__top {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  .logo,
+  .header__top_description,
+  .header__map,
+  .header__top_button,
+  .header__contacts,
+  .header__messengers {
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .header__block.mb77 {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 840px) {
+  .header__block.mb77 {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .button__cost {
+    padding: 20px 30px;
+  }
+  .description__case,
+  .before {
+    margin-bottom: 20px;
+  }
+  .cost {
+    margin-right: 20px;
+  }
+  .title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 675px) {
+  .header__block.header__block_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cost {
+    margin: auto;
+  }
+  .header__block.mb77 {
+    margin-left: 30px;
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .button__cost {
+    padding: 10px 15px;
+  }
+  .header__items {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__block.mb77,
+  .header__description,
+  .title,
+  .man,
+  .cost,
+  .header__block.header__block_bottom {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 840px) {
+    .menu {
+      display: none;
+    }
+    .trigger {
+      display: inline-block;
+      margin: 3px;
+      cursor: pointer;
+    }
+    .trigger i {
+      display: block;
+      width: 30px;
+      height: 6px;
+      margin: 4px auto;
+      background: #222;
+    }
+    .show {
+      display: block;
+      height: auto;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  

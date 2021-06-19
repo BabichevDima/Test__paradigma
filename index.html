@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unvent</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <img src="./images/Лого.png" alt="logo" class="logo" />
+
+          <div class="description header__top_description">
+            <span class="bold">Профессиональный монтаж дымоходов</span> любой
+            сложности на территории Киева и Киевской обл.
+          </div>
+
+          <div class="header__map">
+            <img class="map" src="./images/map.png" alt="map" />
+            <div class="description description__map">
+              <p class="bold">Украина, Киев,</p>
+              <p>Васильковская 30</p>
+            </div>
+          </div>
+
+          <button class="button header__top_button">
+            Консультация инженера
+          </button>
+
+          <div class="header__contacts">
+            <div class="header__number">
+              <img src="./images/Иконка4.png" alt="phone" />
+              <span class="number">+38 067 242-58-78</span>
+            </div>
+
+            <div class="header__messengers">
+              <div class="circle">
+                <img src="./images/Иконка1.png" alt="Viber" class="messenger" />
+              </div>
+
+              <div class="circle">
+                <img
+                  src="./images/Иконка2.png"
+                  alt="Telegram"
+                  class="messenger"
+                />
+              </div>
+
+              <div class="circle">
+                <img
+                  src="./images/Иконка3.png"
+                  alt="WhatsApp"
+                  class="messenger"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav">
+          <span id="trigger" class="trigger">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <ul id="menu" class="menu header__items">
+            <li><a href="#" class="header__item">Калькулятор</a></li>
+            <li><a href="#" class="header__item">Услуги</a></li>
+            <li><a href="#" class="header__item">Наши новости</a></li>
+            <li><a href="#" class="header__item">Отзывы</a></li>
+            <li><a href="#" class="header__item">Консультация</a></li>
+            <li><a href="#" class="header__item">Преимущества</a></li>
+            <li><a href="#" class="header__item">Производство</a></li>
+            <li><a href="#" class="header__item">Вопрос-ответ</a></li>
+            <li><a href="#" class="header__item">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="header__menu">
+          <div class="header__description">
+            <div class="title">
+              <span class="bold">Монтаж дымоходов из нержавеющей стали</span>
+              для частных домов и предприятий
+            </div>
+
+            <div class="header__block mb77">
+              <div class="description__case">
+                <div class="big__number">15</div>
+                <p class="description">
+                  <span class="bold">лет устанавливаем дымоходы</span> для
+                  частных лиц и организаций
+                </p>
+              </div>
+              <div class="before">
+                <p class="description">
+                  <span class="bold">Бесплатный выезд инженера</span> в пределах
+                  30 км. от Киева
+                </p>
+              </div>
+              <div class="before">
+                <p class="description">
+                  <span class="bold">Монтаж под ключ от 1 дня,</span> в наличии
+                  все разрешительные документы
+                </p>
+              </div>
+            </div>
+
+            <div class="header__block header__block_bottom">
+              <div class="cost">
+                <div class="description mb29">
+                  Рассчитайте стоимость монтажа вашего дымохода за 1 минуту и
+                  <span class="bold bgc">получите скидку 15%</span>
+                </div>
+                <button class="button button__cost">
+                  <img class="calc" src="./images/Иконка5.png" alt="calc" />
+                  <p>Рассчитать стоимость монтажа и получить скидку</p>
+                </button>
+              </div>
+
+              <div class="certificates">
+                <div class="description bold mb17">
+                  Лицензии и сертификаты в наличии
+                </div>
+
+                <div class="block">
+                  <div class="certificate__block">
+                    <div class="slider__track">
+                      <img
+                        class="certificate"
+                        src="./images/certificate.png"
+                        alt="certificate"
+                      />
+                      <img
+                        class="certificate"
+                        src="./images/certificate.png"
+                        alt="certificate"
+                      />
+                      <img
+                        class="certificate"
+                        src="./images/certificate.png"
+                        alt="certificate"
+                      />
+                      <img
+                        class="certificate"
+                        src="./images/bg.png"
+                        alt="certificate"
+                      />
+                      <img
+                        class="certificate"
+                        src="./images/man.png"
+                        alt="certificate"
+                      />
+                    </div>
+                  </div>
+                  <div class="btn__prev">&#10094</div>
+                  <div class="btn__next">&#10095</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="man" src="./images/man.png" alt="man" />
+        </div>
+
+        <div class="modal">
+          <div class="modal__content">
+            <div class="close">&times;</div>
+          </div>
+          <div id="map" class="maps"></div>
+        </div>
+      </div>
+    </header>
+    <script src="./main.js"></script>
+  </body>
+</html>
